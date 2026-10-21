@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 4
+names: ['Bus', 'Cars', 'Lorry', 'Motorcycle']
+
+roboflow:
+  workspace: fypyolov5-xmxg5
+  project: vehicle-classification-6kxeh
+  version: 8
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/fypyolov5-xmxg5/vehicle-classification-6kxeh/dataset/8
